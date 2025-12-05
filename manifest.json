@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§aSodium - §fCraft Studio §7(FPS Boost Pack)",
+    "description": "§6Subscribe to §dCraftStudio§r\n§eUltra-lightweight and optimized texture pack designed to maximize FPS in MCPE/Bedrock. \n§bPerfect for low-end devices with clean visuals and minimal lag. \n§fCreated by §dCraft Studio",
+    "uuid": "3e0bfcba-1a8e-4d40-a403-dc2e8bd17c6a",
+    "version": [1, 2, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "§aSodium - §fCraft Studio FPS Boost Textures",
+      "type": "resources",
+      "uuid": "15a255aa-6ab3-448e-84a4-54f66de5bc0e",
+      "version": [1, 2, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Craft Studio"],
+    "url": "https://www.youtube.com/@CraftStudiio"
+  }
+}

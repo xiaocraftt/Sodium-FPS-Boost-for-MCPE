@@ -1,0 +1,16 @@
+#include "fragmentVersionSimple.h"
+
+#include "uniformShaderConstants.h"
+
+void main()
+{
+
+    vec3 color = vec3(2.0, 2.0, 2.0);
+    vec4 alpha = vec4(color, 0.25);
+
+	gl_FragColor = alpha;
+
+#if defined(FORCE_DEPTH_ZERO) && __VERSION__ >= 300
+	gl_FragDepth = 0.0;
+#endif
+}
